@@ -1,0 +1,50 @@
+.global-section {
+    position: relative;
+    color: var(--text-light);
+    padding: calc(var(--spacing-xl) * 3) 0 0 0;
+}
+
+.global-section::before {
+    content: "";
+    width: 100%;
+    height: 75rem;
+    position: absolute;
+    background-color: var(--primary-accent);
+    z-index: -1;
+    top: -2rem;
+    left: 0;
+    transform: skewY(-10deg);
+}
+
+.global-section a {
+    color: var(--blue-1)
+}
+
+.global-section a:hover {
+    color: var(--text-light);
+}
+
+.global-section .card-container {
+    display: flex;
+    margin: calc(var(--spacing-xl) * 2) 0;
+}
+
+.global-section .card-container .card {
+    width: 25%;
+    padding: 0 var(--spacing-sm);
+    margin: 0 var(--spacing-md)
+}
+
+.global-section .card-container .card h3 {
+    border-left: 2px solid var(--blue-1);
+    padding-left: var(--spacing-sm);
+    line-height: 1.75rem;
+    /*  MD?  */
+}
+
+#globe {
+    position: absolute;
+    max-width: 52.75rem;
+    opacity: 25%;
+    top: 8%;
+}

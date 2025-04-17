@@ -1,0 +1,18 @@
+.unified-platform-section {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--bg-light);
+}
+
+.unified-platform-section .primary-button {
+    background-color: var(--purple-1);
+    margin: var(--spacing-md) 0;
+}
+
+.unified-platform-section .primary-button:hover {
+    background-color: var(--primary-accent);
+}
+
+.unified-platform-section h2 {
+    width: 50%;
+    margin-bottom: var(--spacing-md);
+}

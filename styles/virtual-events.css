@@ -1,0 +1,99 @@
+.virtual-events-section {
+    padding: calc(var(--spacing-xl) * 2) 0;
+    position: relative;
+}
+
+.virtual-events-section::before {
+    content: "";
+    background-color: var(--bg-white);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -0rem;
+    left: 0;
+    z-index: -1;
+}
+
+.virtual-events-section .primary-button {
+    background-color: var(--purple-1);
+    margin-top: var(--spacing-md);
+}
+
+.virtual-events-section .primary-button:hover {
+    background-color: var(--primary-accent);
+}
+
+.virtual-events-section .col {
+    justify-content: center;
+}
+
+.virtual-events-section .col:first-of-type {
+    padding: 0 var(--spacing-xl) 0 0;
+}
+
+
+.swipe-sessions-card {
+    width: 33.75rem;
+    height: 27.87rem;
+    box-shadow: var(--standard-box-shadow);
+    border-radius: var(--standard-border-radius);
+    overflow: hidden;
+}
+
+.swipe-sessions-card .card-top {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sessions-logo {
+    width: 21.125rem;
+}
+
+.swipe-sessions-card .avatars {
+    position: absolute;
+    height: 5rem;
+    left: var(--spacing-xl);
+    bottom: -4.375rem;
+}
+
+.swipe-sessions-card .avatars img {
+    width: 5rem;
+}
+
+.swipe-sessions-card .avatars img:last-of-type {
+    position: absolute;
+    left: 3.4rem;
+}
+
+.swipe-sessions-card .card-bottom {
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: var(--spacing-xl);
+}
+
+.swipe-sessions-card .card-bottom .subtitle {
+    margin: var(--spacing-lg) 0 0 0;
+}
+
+.swipe-sessions-card .card-bottom .secondary-text {
+    color: var(--text-dark);
+    width: 50%;
+    font-weight: 700;
+}
+
+
+.swipe-sessions-card .card-top::before {
+    content: "";
+    background-image: var(--primary-gradient);
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: -40%;
+    transform: skewY(-5deg);
+    z-index: -1;
+}

@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    margin: 0;
+    width: 100%;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: var(--h1-size);
+    font-weight: 600;
+    letter-spacing: -0.06rem;
+    line-height: var(--h1-height);
+}
+
+h2 {
+    font-size: var(--h2-size);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: var(--h3-size);
+}
+
+h4 {
+    font-size: var(--h4-size);
+    letter-spacing: 0.015rem;
+}
+
+h5 {
+    font-size: var(--h5-size);
+}
+
+h6 {
+    font-size: var(--h6-size);
+}

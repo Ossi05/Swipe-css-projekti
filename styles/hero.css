@@ -1,0 +1,22 @@
+.button-container {
+    margin: var(--spacing-md) 0;
+}
+
+.button-container a:nth-of-type(2) {
+    margin-left: var(--spacing-md);
+    color: var(--purple-2);
+}
+
+.hero .hero-phone-container {
+    height: 35.25rem;
+    align-items: flex-end;
+}
+
+.hero-phone-container .hero-phone {
+    height: 39.25rem;
+    transform: translate(2rem, -3rem);
+}
+
+.hero p {
+    max-width: 30rem;
+}

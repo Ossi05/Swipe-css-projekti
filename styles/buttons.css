@@ -1,0 +1,45 @@
+.primary-button,
+.secondary-button {
+    font-family: var(--body-font);
+    font-size: var(--button-size);
+    letter-spacing: .078rem;
+    font-weight: bold;
+    border-radius: var(--standard-border-radius);
+    border: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.primary-button {
+    color: var(--text-light);
+    background-color: var(--primary-accent);
+    padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.secondary-button {
+    background-color: transparent;
+    color: var(--primary-accent);
+}
+
+.primary-button:hover {
+    background-color: var(--primary-button-hover);
+    color: var(--text-light);
+}
+
+.secondary-button:hover {
+    opacity: 0.75;
+}
+
+.with-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.with-icon>img {
+    transition: transform .25s ease-in-out;
+}
+
+.with-icon:hover>img {
+    transform: translateX(.3rem);
+}

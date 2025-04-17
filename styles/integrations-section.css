@@ -1,0 +1,65 @@
+.integrations-section {
+    color: var(--text-light);
+    position: relative;
+    padding: calc(var(--spacing-xl) * 3) 0;
+    z-index: 1;
+}
+
+.integrations-section::before {
+    content: "";
+    width: 100%;
+    height: 68.75rem;
+    position: absolute;
+    background-color: var(--primary-accent);
+    z-index: -1;
+    top: -2rem;
+    left: 0;
+    transform: skewY(-10deg);
+}
+
+.integrations-section::after {
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: var(--bg-light);
+    z-index: -2;
+    top: 0;
+    left: 0;
+}
+
+.integrations-section .card-container {
+    display: flex;
+    margin: var(--spacing-lg) 0;
+}
+
+.integrations-section .card-container .card {
+    width: 50%;
+}
+
+.integrations-section .primary-button {
+    background-color: var(--blue-1);
+    color: var(--primary-accent);
+    margin-top: var(--spacing-md);
+}
+
+.integrations-section .primary-button:hover {
+    background-color: var(--bg-white);
+    color: var(--primary-accent);
+}
+
+.integrations-section .secondary-button {
+    color: var(--blue-1)
+}
+
+
+.integrations-section .img-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.integrations-section .img-container img {
+    max-width: 29.38rem;
+    border-radius: var(--standard-border-radius);
+}
