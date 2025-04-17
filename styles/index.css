@@ -390,6 +390,7 @@ p {
         border-radius: var(--standard-border-radius) 0 0 var(--standard-border-radius);
         padding: 0 var(--spacing-md);
         transition: all var(--hamburger-animation-length) ease-in-out;
+        box-shadow: var(--standard-box-shadow);
     }
 
     .navbar .primary-button {
